@@ -5,7 +5,8 @@ void setup(){
   size(800,600);
   //Create a walker object
   w = new Walker();
-  background(255);
+  
+  background(0);
   
 }
 

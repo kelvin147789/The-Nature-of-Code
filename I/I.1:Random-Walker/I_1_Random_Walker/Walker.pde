@@ -12,7 +12,7 @@ class Walker {
   }
   
   void render() {
-    stroke(0);
+    stroke(15,189,65);
     point(x,y);
   }
   
