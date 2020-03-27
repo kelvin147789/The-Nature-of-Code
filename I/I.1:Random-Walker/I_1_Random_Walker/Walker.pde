@@ -17,17 +17,18 @@ class Walker {
   }
   
   void step() {
-  int choice = int(random(4));
+  float choice = (random(1));
   
+  // 40% of moving to right!
   
-  if (choice == 0) {
+  if (choice < 0.4 ) {
     x++;
-  } else if (choice == 1) {
+  } else if (choice < 0.6) {
     x--;
   }
-    else if (choice == 2) {
+    else if (choice < 0.8 ) {
     y++;
-  } else if (choice == 3) {
+  } else  {
     y--;
   }
   
