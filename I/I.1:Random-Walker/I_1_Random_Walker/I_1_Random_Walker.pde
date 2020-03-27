@@ -10,9 +10,10 @@ void setup(){
   
 }
 
-void draw() {
+void draw() {`
   // Run the walker object 
   w.step();
   w.render();
 
 }
+`
